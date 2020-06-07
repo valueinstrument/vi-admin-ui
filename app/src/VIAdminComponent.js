@@ -12,7 +12,7 @@ const Grid = styled.div`
   grid-template-columns: repeat(12, 1fr);
 
   @media only screen and (min-width: 769px) {
-    grid-template-rows: 225px 410px 410px;
+    grid-template-rows: 225px 1fr 1fr;
   }
   @media only screen and (max-width: 768px) {
   }
