@@ -79,7 +79,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"SignerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"SignerRemoved\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addSigner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isSigner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceSigner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/SignerRole.sol\":\"SignerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/SignerRole.sol\":{\"keccak256\":\"0x39dea114930923de6e558afa8544bc2318a31bed11b5ee7621d4ba3bc5095075\",\"urls\":[\"bzz-raw://9e60bf12abe639a604666fa74f0e07dd5b4882ed59b5a574b09f56ba9620fdf8\",\"dweb:/ipfs/QmSpUJ6B1EvLkyouw23YP7DdW8nzoNm1cJMXHMEy4iQgVR\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"SignerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"SignerRemoved\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addSigner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isSigner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceSigner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/SignerRole.sol\":\"SignerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/SignerRole.sol\":{\"keccak256\":\"0x39dea114930923de6e558afa8544bc2318a31bed11b5ee7621d4ba3bc5095075\",\"urls\":[\"bzz-raw://9e60bf12abe639a604666fa74f0e07dd5b4882ed59b5a574b09f56ba9620fdf8\",\"dweb:/ipfs/QmSpUJ6B1EvLkyouw23YP7DdW8nzoNm1cJMXHMEy4iQgVR\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
@@ -90,14 +90,14 @@
     "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/SignerRole.sol",
     "exportedSymbols": {
       "SignerRole": [
-        2496
+        2316
       ]
     },
-    "id": 2497,
+    "id": 2317,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2394,
+        "id": 2214,
         "literals": [
           "solidity",
           "^",
@@ -105,16 +105,16 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:12"
+        "src": "0:23:9"
       },
       {
         "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/Roles.sol",
         "file": "../Roles.sol",
-        "id": 2395,
+        "id": 2215,
         "nodeType": "ImportDirective",
-        "scope": 2497,
-        "sourceUnit": 2081,
-        "src": "25:22:12",
+        "scope": 2317,
+        "sourceUnit": 1901,
+        "src": "25:22:9",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -124,38 +124,38 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2496,
+        "id": 2316,
         "linearizedBaseContracts": [
-          2496
+          2316
         ],
         "name": "SignerRole",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 2398,
+            "id": 2218,
             "libraryName": {
               "contractScope": null,
-              "id": 2396,
+              "id": 2216,
               "name": "Roles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2080,
-              "src": "81:5:12",
+              "referencedDeclaration": 1900,
+              "src": "81:5:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Roles_$2080",
+                "typeIdentifier": "t_contract$_Roles_$1900",
                 "typeString": "library Roles"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "75:27:12",
+            "src": "75:27:9",
             "typeName": {
               "contractScope": null,
-              "id": 2397,
+              "id": 2217,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2006,
-              "src": "91:10:12",
+              "referencedDeclaration": 1826,
+              "src": "91:10:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$2006_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$1826_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             }
@@ -163,21 +163,21 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 2402,
+            "id": 2222,
             "name": "SignerAdded",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 2401,
+              "id": 2221,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2400,
+                  "id": 2220,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2402,
-                  "src": "126:23:12",
+                  "scope": 2222,
+                  "src": "126:23:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -185,10 +185,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2399,
+                    "id": 2219,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "126:7:12",
+                    "src": "126:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -199,28 +199,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "125:25:12"
+              "src": "125:25:9"
             },
-            "src": "108:43:12"
+            "src": "108:43:9"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 2406,
+            "id": 2226,
             "name": "SignerRemoved",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 2405,
+              "id": 2225,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2404,
+                  "id": 2224,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2406,
-                  "src": "176:23:12",
+                  "scope": 2226,
+                  "src": "176:23:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -228,10 +228,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2403,
+                    "id": 2223,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "176:7:12",
+                    "src": "176:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -242,32 +242,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "175:25:12"
+              "src": "175:25:9"
             },
-            "src": "156:45:12"
+            "src": "156:45:9"
           },
           {
             "constant": false,
-            "id": 2408,
+            "id": 2228,
             "name": "_signers",
             "nodeType": "VariableDeclaration",
-            "scope": 2496,
-            "src": "207:27:12",
+            "scope": 2316,
+            "src": "207:27:9",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Role_$2006_storage",
+              "typeIdentifier": "t_struct$_Role_$1826_storage",
               "typeString": "struct Roles.Role"
             },
             "typeName": {
               "contractScope": null,
-              "id": 2407,
+              "id": 2227,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2006,
-              "src": "207:10:12",
+              "referencedDeclaration": 1826,
+              "src": "207:10:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$2006_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$1826_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             },
@@ -276,9 +276,9 @@
           },
           {
             "body": {
-              "id": 2416,
+              "id": 2236,
               "nodeType": "Block",
-              "src": "265:39:12",
+              "src": "265:39:9",
               "statements": [
                 {
                   "expression": {
@@ -288,18 +288,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2412,
+                          "id": 2232,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 13935,
-                          "src": "286:3:12",
+                          "referencedDeclaration": 4022,
+                          "src": "286:3:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2413,
+                        "id": 2233,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -307,7 +307,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "286:10:12",
+                        "src": "286:10:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -321,18 +321,18 @@
                           "typeString": "address payable"
                         }
                       ],
-                      "id": 2411,
+                      "id": 2231,
                       "name": "_addSigner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2479,
-                      "src": "275:10:12",
+                      "referencedDeclaration": 2299,
+                      "src": "275:10:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2414,
+                    "id": 2234,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -340,48 +340,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "275:22:12",
+                    "src": "275:22:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2415,
+                  "id": 2235,
                   "nodeType": "ExpressionStatement",
-                  "src": "275:22:12"
+                  "src": "275:22:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2417,
+            "id": 2237,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2409,
+              "id": 2229,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "253:2:12"
+              "src": "253:2:9"
             },
             "returnParameters": {
-              "id": 2410,
+              "id": 2230,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "265:0:12"
+              "src": "265:0:9"
             },
-            "scope": 2496,
-            "src": "241:63:12",
+            "scope": 2316,
+            "src": "241:63:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 2428,
+              "id": 2248,
               "nodeType": "Block",
-              "src": "332:109:12",
+              "src": "332:109:9",
               "statements": [
                 {
                   "expression": {
@@ -394,18 +394,18 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 2421,
+                              "id": 2241,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 13935,
-                              "src": "359:3:12",
+                              "referencedDeclaration": 4022,
+                              "src": "359:3:9",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 2422,
+                            "id": 2242,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -413,7 +413,7 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "359:10:12",
+                            "src": "359:10:9",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
@@ -427,18 +427,18 @@
                               "typeString": "address payable"
                             }
                           ],
-                          "id": 2420,
+                          "id": 2240,
                           "name": "isSigner",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2442,
-                          "src": "350:8:12",
+                          "referencedDeclaration": 2262,
+                          "src": "350:8:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
                           }
                         },
-                        "id": 2423,
+                        "id": 2243,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -446,7 +446,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "350:20:12",
+                        "src": "350:20:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -455,14 +455,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "5369676e6572526f6c653a2063616c6c657220646f6573206e6f74206861766520746865205369676e657220726f6c65",
-                        "id": 2424,
+                        "id": 2244,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "372:50:12",
+                        "src": "372:50:9",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_b6891e5b4d475f0920654fe3ac5946509ff820cec51e2251e557a368dd1a533c",
@@ -482,21 +482,21 @@
                           "typeString": "literal_string \"SignerRole: caller does not have the Signer role\""
                         }
                       ],
-                      "id": 2419,
+                      "id": 2239,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        13938,
-                        13939
+                        4025,
+                        4026
                       ],
-                      "referencedDeclaration": 13939,
-                      "src": "342:7:12",
+                      "referencedDeclaration": 4026,
+                      "src": "342:7:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 2425,
+                    "id": 2245,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -504,41 +504,41 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "342:81:12",
+                    "src": "342:81:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2426,
+                  "id": 2246,
                   "nodeType": "ExpressionStatement",
-                  "src": "342:81:12"
+                  "src": "342:81:9"
                 },
                 {
-                  "id": 2427,
+                  "id": 2247,
                   "nodeType": "PlaceholderStatement",
-                  "src": "433:1:12"
+                  "src": "433:1:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2429,
+            "id": 2249,
             "name": "onlySigner",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 2418,
+              "id": 2238,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "329:2:12"
+              "src": "329:2:9"
             },
-            "src": "310:131:12",
+            "src": "310:131:9",
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 2441,
+              "id": 2261,
               "nodeType": "Block",
-              "src": "509:45:12",
+              "src": "509:45:9",
               "statements": [
                 {
                   "expression": {
@@ -546,12 +546,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2438,
+                        "id": 2258,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2431,
-                        "src": "539:7:12",
+                        "referencedDeclaration": 2251,
+                        "src": "539:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -567,32 +567,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2436,
+                        "id": 2256,
                         "name": "_signers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2408,
-                        "src": "526:8:12",
+                        "referencedDeclaration": 2228,
+                        "src": "526:8:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$2006_storage",
+                          "typeIdentifier": "t_struct$_Role_$1826_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 2437,
+                      "id": 2257,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "has",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2079,
-                      "src": "526:12:12",
+                      "referencedDeclaration": 1899,
+                      "src": "526:12:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$2006_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$2006_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$1826_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$1826_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address) view returns (bool)"
                       }
                     },
-                    "id": 2439,
+                    "id": 2259,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -600,37 +600,37 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "526:21:12",
+                    "src": "526:21:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 2435,
-                  "id": 2440,
+                  "functionReturnParameters": 2255,
+                  "id": 2260,
                   "nodeType": "Return",
-                  "src": "519:28:12"
+                  "src": "519:28:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2442,
+            "id": 2262,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "isSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2432,
+              "id": 2252,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2431,
+                  "id": 2251,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2442,
-                  "src": "465:15:12",
+                  "scope": 2262,
+                  "src": "465:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -638,10 +638,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2430,
+                    "id": 2250,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "465:7:12",
+                    "src": "465:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -652,19 +652,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "464:17:12"
+              "src": "464:17:9"
             },
             "returnParameters": {
-              "id": 2435,
+              "id": 2255,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2434,
+                  "id": 2254,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2442,
-                  "src": "503:4:12",
+                  "scope": 2262,
+                  "src": "503:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -672,10 +672,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2433,
+                    "id": 2253,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "503:4:12",
+                    "src": "503:4:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -685,19 +685,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "502:6:12"
+              "src": "502:6:9"
             },
-            "scope": 2496,
-            "src": "447:107:12",
+            "scope": 2316,
+            "src": "447:107:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2453,
+              "id": 2273,
               "nodeType": "Block",
-              "src": "614:36:12",
+              "src": "614:36:9",
               "statements": [
                 {
                   "expression": {
@@ -705,12 +705,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2450,
+                        "id": 2270,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2444,
-                        "src": "635:7:12",
+                        "referencedDeclaration": 2264,
+                        "src": "635:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -724,18 +724,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2449,
+                      "id": 2269,
                       "name": "_addSigner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2479,
-                      "src": "624:10:12",
+                      "referencedDeclaration": 2299,
+                      "src": "624:10:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2451,
+                    "id": 2271,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -743,56 +743,56 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "624:19:12",
+                    "src": "624:19:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2452,
+                  "id": 2272,
                   "nodeType": "ExpressionStatement",
-                  "src": "624:19:12"
+                  "src": "624:19:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2454,
+            "id": 2274,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2447,
+                "id": 2267,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2446,
+                  "id": 2266,
                   "name": "onlySigner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2429,
-                  "src": "603:10:12",
+                  "referencedDeclaration": 2249,
+                  "src": "603:10:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "603:10:12"
+                "src": "603:10:9"
               }
             ],
             "name": "addSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2445,
+              "id": 2265,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2444,
+                  "id": 2264,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2454,
-                  "src": "579:15:12",
+                  "scope": 2274,
+                  "src": "579:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -800,10 +800,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2443,
+                    "id": 2263,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "579:7:12",
+                    "src": "579:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -814,25 +814,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "578:17:12"
+              "src": "578:17:9"
             },
             "returnParameters": {
-              "id": 2448,
+              "id": 2268,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "614:0:12"
+              "src": "614:0:9"
             },
-            "scope": 2496,
-            "src": "560:90:12",
+            "scope": 2316,
+            "src": "560:90:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2462,
+              "id": 2282,
               "nodeType": "Block",
-              "src": "689:42:12",
+              "src": "689:42:9",
               "statements": [
                 {
                   "expression": {
@@ -842,18 +842,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2458,
+                          "id": 2278,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 13935,
-                          "src": "713:3:12",
+                          "referencedDeclaration": 4022,
+                          "src": "713:3:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2459,
+                        "id": 2279,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -861,7 +861,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "713:10:12",
+                        "src": "713:10:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -875,18 +875,18 @@
                           "typeString": "address payable"
                         }
                       ],
-                      "id": 2457,
+                      "id": 2277,
                       "name": "_removeSigner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2495,
-                      "src": "699:13:12",
+                      "referencedDeclaration": 2315,
+                      "src": "699:13:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2460,
+                    "id": 2280,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -894,48 +894,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "699:25:12",
+                    "src": "699:25:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2461,
+                  "id": 2281,
                   "nodeType": "ExpressionStatement",
-                  "src": "699:25:12"
+                  "src": "699:25:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2463,
+            "id": 2283,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "renounceSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2455,
+              "id": 2275,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "679:2:12"
+              "src": "679:2:9"
             },
             "returnParameters": {
-              "id": 2456,
+              "id": 2276,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "689:0:12"
+              "src": "689:0:9"
             },
-            "scope": 2496,
-            "src": "656:75:12",
+            "scope": 2316,
+            "src": "656:75:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2478,
+              "id": 2298,
               "nodeType": "Block",
-              "src": "783:73:12",
+              "src": "783:73:9",
               "statements": [
                 {
                   "expression": {
@@ -943,12 +943,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2471,
+                        "id": 2291,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2465,
-                        "src": "806:7:12",
+                        "referencedDeclaration": 2285,
+                        "src": "806:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -964,32 +964,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2468,
+                        "id": 2288,
                         "name": "_signers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2408,
-                        "src": "793:8:12",
+                        "referencedDeclaration": 2228,
+                        "src": "793:8:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$2006_storage",
+                          "typeIdentifier": "t_struct$_Role_$1826_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 2470,
+                      "id": 2290,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2031,
-                      "src": "793:12:12",
+                      "referencedDeclaration": 1851,
+                      "src": "793:12:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2006_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2006_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1826_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1826_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 2472,
+                    "id": 2292,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -997,15 +997,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "793:21:12",
+                    "src": "793:21:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2473,
+                  "id": 2293,
                   "nodeType": "ExpressionStatement",
-                  "src": "793:21:12"
+                  "src": "793:21:9"
                 },
                 {
                   "eventCall": {
@@ -1013,12 +1013,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2475,
+                        "id": 2295,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2465,
-                        "src": "841:7:12",
+                        "referencedDeclaration": 2285,
+                        "src": "841:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1032,18 +1032,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2474,
+                      "id": 2294,
                       "name": "SignerAdded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2402,
-                      "src": "829:11:12",
+                      "referencedDeclaration": 2222,
+                      "src": "829:11:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2476,
+                    "id": 2296,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1051,36 +1051,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "829:20:12",
+                    "src": "829:20:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2477,
+                  "id": 2297,
                   "nodeType": "EmitStatement",
-                  "src": "824:25:12"
+                  "src": "824:25:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2479,
+            "id": 2299,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_addSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2466,
+              "id": 2286,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2465,
+                  "id": 2285,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2479,
-                  "src": "757:15:12",
+                  "scope": 2299,
+                  "src": "757:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1088,10 +1088,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2464,
+                    "id": 2284,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "757:7:12",
+                    "src": "757:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1102,25 +1102,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "756:17:12"
+              "src": "756:17:9"
             },
             "returnParameters": {
-              "id": 2467,
+              "id": 2287,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "783:0:12"
+              "src": "783:0:9"
             },
-            "scope": 2496,
-            "src": "737:119:12",
+            "scope": 2316,
+            "src": "737:119:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 2494,
+              "id": 2314,
               "nodeType": "Block",
-              "src": "911:78:12",
+              "src": "911:78:9",
               "statements": [
                 {
                   "expression": {
@@ -1128,12 +1128,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2487,
+                        "id": 2307,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2481,
-                        "src": "937:7:12",
+                        "referencedDeclaration": 2301,
+                        "src": "937:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1149,32 +1149,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2484,
+                        "id": 2304,
                         "name": "_signers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2408,
-                        "src": "921:8:12",
+                        "referencedDeclaration": 2228,
+                        "src": "921:8:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$2006_storage",
+                          "typeIdentifier": "t_struct$_Role_$1826_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 2486,
+                      "id": 2306,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2055,
-                      "src": "921:15:12",
+                      "referencedDeclaration": 1875,
+                      "src": "921:15:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2006_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2006_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1826_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1826_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 2488,
+                    "id": 2308,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1182,15 +1182,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "921:24:12",
+                    "src": "921:24:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2489,
+                  "id": 2309,
                   "nodeType": "ExpressionStatement",
-                  "src": "921:24:12"
+                  "src": "921:24:9"
                 },
                 {
                   "eventCall": {
@@ -1198,12 +1198,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2491,
+                        "id": 2311,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2481,
-                        "src": "974:7:12",
+                        "referencedDeclaration": 2301,
+                        "src": "974:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1217,18 +1217,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2490,
+                      "id": 2310,
                       "name": "SignerRemoved",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2406,
-                      "src": "960:13:12",
+                      "referencedDeclaration": 2226,
+                      "src": "960:13:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2492,
+                    "id": 2312,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1236,36 +1236,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "960:22:12",
+                    "src": "960:22:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2493,
+                  "id": 2313,
                   "nodeType": "EmitStatement",
-                  "src": "955:27:12"
+                  "src": "955:27:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2495,
+            "id": 2315,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2482,
+              "id": 2302,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2481,
+                  "id": 2301,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2495,
-                  "src": "885:15:12",
+                  "scope": 2315,
+                  "src": "885:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1273,10 +1273,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2480,
+                    "id": 2300,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "885:7:12",
+                    "src": "885:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1287,39 +1287,39 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "884:17:12"
+              "src": "884:17:9"
             },
             "returnParameters": {
-              "id": 2483,
+              "id": 2303,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "911:0:12"
+              "src": "911:0:9"
             },
-            "scope": 2496,
-            "src": "862:127:12",
+            "scope": 2316,
+            "src": "862:127:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 2497,
-        "src": "49:942:12"
+        "scope": 2317,
+        "src": "49:942:9"
       }
     ],
-    "src": "0:992:12"
+    "src": "0:992:9"
   },
   "legacyAST": {
     "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/SignerRole.sol",
     "exportedSymbols": {
       "SignerRole": [
-        2496
+        2316
       ]
     },
-    "id": 2497,
+    "id": 2317,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2394,
+        "id": 2214,
         "literals": [
           "solidity",
           "^",
@@ -1327,16 +1327,16 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:12"
+        "src": "0:23:9"
       },
       {
         "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/Roles.sol",
         "file": "../Roles.sol",
-        "id": 2395,
+        "id": 2215,
         "nodeType": "ImportDirective",
-        "scope": 2497,
-        "sourceUnit": 2081,
-        "src": "25:22:12",
+        "scope": 2317,
+        "sourceUnit": 1901,
+        "src": "25:22:9",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1346,38 +1346,38 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2496,
+        "id": 2316,
         "linearizedBaseContracts": [
-          2496
+          2316
         ],
         "name": "SignerRole",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 2398,
+            "id": 2218,
             "libraryName": {
               "contractScope": null,
-              "id": 2396,
+              "id": 2216,
               "name": "Roles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2080,
-              "src": "81:5:12",
+              "referencedDeclaration": 1900,
+              "src": "81:5:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Roles_$2080",
+                "typeIdentifier": "t_contract$_Roles_$1900",
                 "typeString": "library Roles"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "75:27:12",
+            "src": "75:27:9",
             "typeName": {
               "contractScope": null,
-              "id": 2397,
+              "id": 2217,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2006,
-              "src": "91:10:12",
+              "referencedDeclaration": 1826,
+              "src": "91:10:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$2006_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$1826_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             }
@@ -1385,21 +1385,21 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 2402,
+            "id": 2222,
             "name": "SignerAdded",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 2401,
+              "id": 2221,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2400,
+                  "id": 2220,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2402,
-                  "src": "126:23:12",
+                  "scope": 2222,
+                  "src": "126:23:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1407,10 +1407,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2399,
+                    "id": 2219,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "126:7:12",
+                    "src": "126:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1421,28 +1421,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "125:25:12"
+              "src": "125:25:9"
             },
-            "src": "108:43:12"
+            "src": "108:43:9"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 2406,
+            "id": 2226,
             "name": "SignerRemoved",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 2405,
+              "id": 2225,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2404,
+                  "id": 2224,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2406,
-                  "src": "176:23:12",
+                  "scope": 2226,
+                  "src": "176:23:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1450,10 +1450,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2403,
+                    "id": 2223,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "176:7:12",
+                    "src": "176:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1464,32 +1464,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "175:25:12"
+              "src": "175:25:9"
             },
-            "src": "156:45:12"
+            "src": "156:45:9"
           },
           {
             "constant": false,
-            "id": 2408,
+            "id": 2228,
             "name": "_signers",
             "nodeType": "VariableDeclaration",
-            "scope": 2496,
-            "src": "207:27:12",
+            "scope": 2316,
+            "src": "207:27:9",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Role_$2006_storage",
+              "typeIdentifier": "t_struct$_Role_$1826_storage",
               "typeString": "struct Roles.Role"
             },
             "typeName": {
               "contractScope": null,
-              "id": 2407,
+              "id": 2227,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2006,
-              "src": "207:10:12",
+              "referencedDeclaration": 1826,
+              "src": "207:10:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$2006_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$1826_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             },
@@ -1498,9 +1498,9 @@
           },
           {
             "body": {
-              "id": 2416,
+              "id": 2236,
               "nodeType": "Block",
-              "src": "265:39:12",
+              "src": "265:39:9",
               "statements": [
                 {
                   "expression": {
@@ -1510,18 +1510,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2412,
+                          "id": 2232,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 13935,
-                          "src": "286:3:12",
+                          "referencedDeclaration": 4022,
+                          "src": "286:3:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2413,
+                        "id": 2233,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1529,7 +1529,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "286:10:12",
+                        "src": "286:10:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -1543,18 +1543,18 @@
                           "typeString": "address payable"
                         }
                       ],
-                      "id": 2411,
+                      "id": 2231,
                       "name": "_addSigner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2479,
-                      "src": "275:10:12",
+                      "referencedDeclaration": 2299,
+                      "src": "275:10:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2414,
+                    "id": 2234,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1562,48 +1562,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "275:22:12",
+                    "src": "275:22:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2415,
+                  "id": 2235,
                   "nodeType": "ExpressionStatement",
-                  "src": "275:22:12"
+                  "src": "275:22:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2417,
+            "id": 2237,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2409,
+              "id": 2229,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "253:2:12"
+              "src": "253:2:9"
             },
             "returnParameters": {
-              "id": 2410,
+              "id": 2230,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "265:0:12"
+              "src": "265:0:9"
             },
-            "scope": 2496,
-            "src": "241:63:12",
+            "scope": 2316,
+            "src": "241:63:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 2428,
+              "id": 2248,
               "nodeType": "Block",
-              "src": "332:109:12",
+              "src": "332:109:9",
               "statements": [
                 {
                   "expression": {
@@ -1616,18 +1616,18 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 2421,
+                              "id": 2241,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 13935,
-                              "src": "359:3:12",
+                              "referencedDeclaration": 4022,
+                              "src": "359:3:9",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 2422,
+                            "id": 2242,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1635,7 +1635,7 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "359:10:12",
+                            "src": "359:10:9",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
@@ -1649,18 +1649,18 @@
                               "typeString": "address payable"
                             }
                           ],
-                          "id": 2420,
+                          "id": 2240,
                           "name": "isSigner",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2442,
-                          "src": "350:8:12",
+                          "referencedDeclaration": 2262,
+                          "src": "350:8:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
                           }
                         },
-                        "id": 2423,
+                        "id": 2243,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1668,7 +1668,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "350:20:12",
+                        "src": "350:20:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1677,14 +1677,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "5369676e6572526f6c653a2063616c6c657220646f6573206e6f74206861766520746865205369676e657220726f6c65",
-                        "id": 2424,
+                        "id": 2244,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "372:50:12",
+                        "src": "372:50:9",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_b6891e5b4d475f0920654fe3ac5946509ff820cec51e2251e557a368dd1a533c",
@@ -1704,21 +1704,21 @@
                           "typeString": "literal_string \"SignerRole: caller does not have the Signer role\""
                         }
                       ],
-                      "id": 2419,
+                      "id": 2239,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        13938,
-                        13939
+                        4025,
+                        4026
                       ],
-                      "referencedDeclaration": 13939,
-                      "src": "342:7:12",
+                      "referencedDeclaration": 4026,
+                      "src": "342:7:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 2425,
+                    "id": 2245,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1726,41 +1726,41 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "342:81:12",
+                    "src": "342:81:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2426,
+                  "id": 2246,
                   "nodeType": "ExpressionStatement",
-                  "src": "342:81:12"
+                  "src": "342:81:9"
                 },
                 {
-                  "id": 2427,
+                  "id": 2247,
                   "nodeType": "PlaceholderStatement",
-                  "src": "433:1:12"
+                  "src": "433:1:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2429,
+            "id": 2249,
             "name": "onlySigner",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 2418,
+              "id": 2238,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "329:2:12"
+              "src": "329:2:9"
             },
-            "src": "310:131:12",
+            "src": "310:131:9",
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 2441,
+              "id": 2261,
               "nodeType": "Block",
-              "src": "509:45:12",
+              "src": "509:45:9",
               "statements": [
                 {
                   "expression": {
@@ -1768,12 +1768,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2438,
+                        "id": 2258,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2431,
-                        "src": "539:7:12",
+                        "referencedDeclaration": 2251,
+                        "src": "539:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1789,32 +1789,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2436,
+                        "id": 2256,
                         "name": "_signers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2408,
-                        "src": "526:8:12",
+                        "referencedDeclaration": 2228,
+                        "src": "526:8:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$2006_storage",
+                          "typeIdentifier": "t_struct$_Role_$1826_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 2437,
+                      "id": 2257,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "has",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2079,
-                      "src": "526:12:12",
+                      "referencedDeclaration": 1899,
+                      "src": "526:12:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$2006_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$2006_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$1826_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$1826_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address) view returns (bool)"
                       }
                     },
-                    "id": 2439,
+                    "id": 2259,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1822,37 +1822,37 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "526:21:12",
+                    "src": "526:21:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 2435,
-                  "id": 2440,
+                  "functionReturnParameters": 2255,
+                  "id": 2260,
                   "nodeType": "Return",
-                  "src": "519:28:12"
+                  "src": "519:28:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2442,
+            "id": 2262,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "isSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2432,
+              "id": 2252,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2431,
+                  "id": 2251,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2442,
-                  "src": "465:15:12",
+                  "scope": 2262,
+                  "src": "465:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1860,10 +1860,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2430,
+                    "id": 2250,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "465:7:12",
+                    "src": "465:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1874,19 +1874,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "464:17:12"
+              "src": "464:17:9"
             },
             "returnParameters": {
-              "id": 2435,
+              "id": 2255,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2434,
+                  "id": 2254,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2442,
-                  "src": "503:4:12",
+                  "scope": 2262,
+                  "src": "503:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1894,10 +1894,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2433,
+                    "id": 2253,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "503:4:12",
+                    "src": "503:4:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1907,19 +1907,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "502:6:12"
+              "src": "502:6:9"
             },
-            "scope": 2496,
-            "src": "447:107:12",
+            "scope": 2316,
+            "src": "447:107:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2453,
+              "id": 2273,
               "nodeType": "Block",
-              "src": "614:36:12",
+              "src": "614:36:9",
               "statements": [
                 {
                   "expression": {
@@ -1927,12 +1927,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2450,
+                        "id": 2270,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2444,
-                        "src": "635:7:12",
+                        "referencedDeclaration": 2264,
+                        "src": "635:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1946,18 +1946,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2449,
+                      "id": 2269,
                       "name": "_addSigner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2479,
-                      "src": "624:10:12",
+                      "referencedDeclaration": 2299,
+                      "src": "624:10:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2451,
+                    "id": 2271,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1965,56 +1965,56 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "624:19:12",
+                    "src": "624:19:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2452,
+                  "id": 2272,
                   "nodeType": "ExpressionStatement",
-                  "src": "624:19:12"
+                  "src": "624:19:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2454,
+            "id": 2274,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2447,
+                "id": 2267,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2446,
+                  "id": 2266,
                   "name": "onlySigner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2429,
-                  "src": "603:10:12",
+                  "referencedDeclaration": 2249,
+                  "src": "603:10:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "603:10:12"
+                "src": "603:10:9"
               }
             ],
             "name": "addSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2445,
+              "id": 2265,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2444,
+                  "id": 2264,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2454,
-                  "src": "579:15:12",
+                  "scope": 2274,
+                  "src": "579:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2022,10 +2022,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2443,
+                    "id": 2263,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "579:7:12",
+                    "src": "579:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2036,25 +2036,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "578:17:12"
+              "src": "578:17:9"
             },
             "returnParameters": {
-              "id": 2448,
+              "id": 2268,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "614:0:12"
+              "src": "614:0:9"
             },
-            "scope": 2496,
-            "src": "560:90:12",
+            "scope": 2316,
+            "src": "560:90:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2462,
+              "id": 2282,
               "nodeType": "Block",
-              "src": "689:42:12",
+              "src": "689:42:9",
               "statements": [
                 {
                   "expression": {
@@ -2064,18 +2064,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2458,
+                          "id": 2278,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 13935,
-                          "src": "713:3:12",
+                          "referencedDeclaration": 4022,
+                          "src": "713:3:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2459,
+                        "id": 2279,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2083,7 +2083,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "713:10:12",
+                        "src": "713:10:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -2097,18 +2097,18 @@
                           "typeString": "address payable"
                         }
                       ],
-                      "id": 2457,
+                      "id": 2277,
                       "name": "_removeSigner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2495,
-                      "src": "699:13:12",
+                      "referencedDeclaration": 2315,
+                      "src": "699:13:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2460,
+                    "id": 2280,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2116,48 +2116,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "699:25:12",
+                    "src": "699:25:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2461,
+                  "id": 2281,
                   "nodeType": "ExpressionStatement",
-                  "src": "699:25:12"
+                  "src": "699:25:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2463,
+            "id": 2283,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "renounceSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2455,
+              "id": 2275,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "679:2:12"
+              "src": "679:2:9"
             },
             "returnParameters": {
-              "id": 2456,
+              "id": 2276,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "689:0:12"
+              "src": "689:0:9"
             },
-            "scope": 2496,
-            "src": "656:75:12",
+            "scope": 2316,
+            "src": "656:75:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2478,
+              "id": 2298,
               "nodeType": "Block",
-              "src": "783:73:12",
+              "src": "783:73:9",
               "statements": [
                 {
                   "expression": {
@@ -2165,12 +2165,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2471,
+                        "id": 2291,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2465,
-                        "src": "806:7:12",
+                        "referencedDeclaration": 2285,
+                        "src": "806:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2186,32 +2186,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2468,
+                        "id": 2288,
                         "name": "_signers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2408,
-                        "src": "793:8:12",
+                        "referencedDeclaration": 2228,
+                        "src": "793:8:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$2006_storage",
+                          "typeIdentifier": "t_struct$_Role_$1826_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 2470,
+                      "id": 2290,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2031,
-                      "src": "793:12:12",
+                      "referencedDeclaration": 1851,
+                      "src": "793:12:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2006_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2006_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1826_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1826_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 2472,
+                    "id": 2292,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2219,15 +2219,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "793:21:12",
+                    "src": "793:21:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2473,
+                  "id": 2293,
                   "nodeType": "ExpressionStatement",
-                  "src": "793:21:12"
+                  "src": "793:21:9"
                 },
                 {
                   "eventCall": {
@@ -2235,12 +2235,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2475,
+                        "id": 2295,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2465,
-                        "src": "841:7:12",
+                        "referencedDeclaration": 2285,
+                        "src": "841:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2254,18 +2254,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2474,
+                      "id": 2294,
                       "name": "SignerAdded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2402,
-                      "src": "829:11:12",
+                      "referencedDeclaration": 2222,
+                      "src": "829:11:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2476,
+                    "id": 2296,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2273,36 +2273,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "829:20:12",
+                    "src": "829:20:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2477,
+                  "id": 2297,
                   "nodeType": "EmitStatement",
-                  "src": "824:25:12"
+                  "src": "824:25:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2479,
+            "id": 2299,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_addSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2466,
+              "id": 2286,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2465,
+                  "id": 2285,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2479,
-                  "src": "757:15:12",
+                  "scope": 2299,
+                  "src": "757:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2310,10 +2310,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2464,
+                    "id": 2284,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "757:7:12",
+                    "src": "757:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2324,25 +2324,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "756:17:12"
+              "src": "756:17:9"
             },
             "returnParameters": {
-              "id": 2467,
+              "id": 2287,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "783:0:12"
+              "src": "783:0:9"
             },
-            "scope": 2496,
-            "src": "737:119:12",
+            "scope": 2316,
+            "src": "737:119:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 2494,
+              "id": 2314,
               "nodeType": "Block",
-              "src": "911:78:12",
+              "src": "911:78:9",
               "statements": [
                 {
                   "expression": {
@@ -2350,12 +2350,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2487,
+                        "id": 2307,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2481,
-                        "src": "937:7:12",
+                        "referencedDeclaration": 2301,
+                        "src": "937:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2371,32 +2371,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2484,
+                        "id": 2304,
                         "name": "_signers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2408,
-                        "src": "921:8:12",
+                        "referencedDeclaration": 2228,
+                        "src": "921:8:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$2006_storage",
+                          "typeIdentifier": "t_struct$_Role_$1826_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 2486,
+                      "id": 2306,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2055,
-                      "src": "921:15:12",
+                      "referencedDeclaration": 1875,
+                      "src": "921:15:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2006_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2006_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1826_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1826_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 2488,
+                    "id": 2308,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2404,15 +2404,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "921:24:12",
+                    "src": "921:24:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2489,
+                  "id": 2309,
                   "nodeType": "ExpressionStatement",
-                  "src": "921:24:12"
+                  "src": "921:24:9"
                 },
                 {
                   "eventCall": {
@@ -2420,12 +2420,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2491,
+                        "id": 2311,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2481,
-                        "src": "974:7:12",
+                        "referencedDeclaration": 2301,
+                        "src": "974:7:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2439,18 +2439,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2490,
+                      "id": 2310,
                       "name": "SignerRemoved",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2406,
-                      "src": "960:13:12",
+                      "referencedDeclaration": 2226,
+                      "src": "960:13:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2492,
+                    "id": 2312,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2458,36 +2458,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "960:22:12",
+                    "src": "960:22:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2493,
+                  "id": 2313,
                   "nodeType": "EmitStatement",
-                  "src": "955:27:12"
+                  "src": "955:27:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 2495,
+            "id": 2315,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeSigner",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2482,
+              "id": 2302,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2481,
+                  "id": 2301,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2495,
-                  "src": "885:15:12",
+                  "scope": 2315,
+                  "src": "885:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2495,10 +2495,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2480,
+                    "id": 2300,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "885:7:12",
+                    "src": "885:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2509,26 +2509,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "884:17:12"
+              "src": "884:17:9"
             },
             "returnParameters": {
-              "id": 2483,
+              "id": 2303,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "911:0:12"
+              "src": "911:0:9"
             },
-            "scope": 2496,
-            "src": "862:127:12",
+            "scope": 2316,
+            "src": "862:127:9",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 2497,
-        "src": "49:942:12"
+        "scope": 2317,
+        "src": "49:942:9"
       }
     ],
-    "src": "0:992:12"
+    "src": "0:992:9"
   },
   "compiler": {
     "name": "solc",
@@ -2536,7 +2536,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-05-14T11:10:25.943Z",
+  "updatedAt": "2020-06-09T12:36:43.481Z",
   "devdoc": {
     "methods": {}
   },
