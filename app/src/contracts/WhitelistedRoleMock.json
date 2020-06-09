@@ -1,0 +1,447 @@
+{
+  "contractName": "WhitelistedRoleMock",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "WhitelistAdminAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "WhitelistAdminRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "WhitelistedAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "WhitelistedRemoved",
+      "type": "event"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "addWhitelistAdmin",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "addWhitelisted",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isWhitelistAdmin",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isWhitelisted",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "removeWhitelisted",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceWhitelistAdmin",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceWhitelisted",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "onlyWhitelistedMock",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"WhitelistAdminAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"WhitelistAdminRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"WhitelistedAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"WhitelistedRemoved\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addWhitelistAdmin\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addWhitelisted\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isWhitelistAdmin\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isWhitelisted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"onlyWhitelistedMock\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeWhitelisted\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceWhitelistAdmin\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceWhitelisted\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/mocks/WhitelistedRoleMock.sol\":\"WhitelistedRoleMock\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/WhitelistAdminRole.sol\":{\"keccak256\":\"0xd2c87384e7346f702df3be70e99fff30f22f7b9767a9502afb345f0457ddf36f\",\"urls\":[\"bzz-raw://c50f27dcd99770cd3fda6ed68c7efeba4ae6a79b6d10e75f396a98f9719e6d7a\",\"dweb:/ipfs/QmfFSHyhi8dFFCYJGAxiWXsATewrKZ9iCtrvXzYRRJx76R\"]},\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/WhitelistedRole.sol\":{\"keccak256\":\"0x110b2fab50ea257de28a8d2b03e05dc11b9e5213841dabfe784aacca8c109cda\",\"urls\":[\"bzz-raw://d25d0c991b2732b068e4aa045b59761d7573b4f634bf2510105fb5ba19cb6569\",\"dweb:/ipfs/QmQTnKT5tVo1DJ6aBLqznrA78xPfhURQjuhML9PiVMaTzM\"]},\"/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/mocks/WhitelistedRoleMock.sol\":{\"keccak256\":\"0xba26e698bb2d74b5b6e4297d7b914d487b4ccbcc00f0c2dffcfa98e65a4e7b06\",\"urls\":[\"bzz-raw://4c66d4848a0ac89834d059880487eb5f5fb3d3a5beb4584872eafd30ffa3c07b\",\"dweb:/ipfs/QmS4YCLViJkRi67G2KBofuwEfb8Mn7g2J3keUua6oU7xim\"]}},\"version\":1}",
+  "bytecode": "0x6080604052610016336001600160e01b0361001b16565b61015b565b61003381600061006a60201b61046d1790919060201c565b6040516001600160a01b038216907f22380c05984257a1cb900161c713dd71d39e74820f1aea43bd3f1bdd2096129990600090a250565b61007d82826001600160e01b036100f416565b156100cf576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b03821661013b5760405162461bcd60e51b81526004018080602001828103825260228152602001806107b16022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6106478061016a6000396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c80637362d9c81161005b5780637362d9c81461011d5780637491c97e14610143578063bb5f747b1461014b578063d6cd94731461017157610088565b806310154bad1461008d578063291d9549146100b55780633af32abf146100db5780634c5a628c14610115575b600080fd5b6100b3600480360360208110156100a357600080fd5b50356001600160a01b0316610179565b005b6100b3600480360360208110156100cb57600080fd5b50356001600160a01b03166101c9565b610101600480360360208110156100f157600080fd5b50356001600160a01b0316610216565b604080519115158252519081900360200190f35b6100b361022f565b6100b36004803603602081101561013357600080fd5b50356001600160a01b031661023a565b6100b3610287565b6101016004803603602081101561016157600080fd5b50356001600160a01b03166102cb565b6100b36102dd565b610182336102cb565b6101bd5760405162461bcd60e51b81526004018080602001828103825260408152602001806105996040913960400191505060405180910390fd5b6101c6816102e6565b50565b6101d2336102cb565b61020d5760405162461bcd60e51b81526004018080602001828103825260408152602001806105996040913960400191505060405180910390fd5b6101c68161032e565b600061022960018363ffffffff61037616565b92915050565b610238336103dd565b565b610243336102cb565b61027e5760405162461bcd60e51b81526004018080602001828103825260408152602001806105996040913960400191505060405180910390fd5b6101c681610425565b61029033610216565b6102385760405162461bcd60e51b815260040180806020018281038252603a8152602001806105d9603a913960400191505060405180910390fd5b6000610229818363ffffffff61037616565b6102383361032e565b6102f760018263ffffffff61046d16565b6040516001600160a01b038216907fee1504a83b6d4a361f4c1dc78ab59bfa30d6a3b6612c403e86bb01ef2984295f90600090a250565b61033f60018263ffffffff6104ee16565b6040516001600160a01b038216907f270d9b30cf5b0793bbfd54c9d5b94aeb49462b8148399000265144a8722da6b690600090a250565b60006001600160a01b0382166103bd5760405162461bcd60e51b81526004018080602001828103825260228152602001806105776022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6103ee60008263ffffffff6104ee16565b6040516001600160a01b038216907f0a8eb35e5ca14b3d6f28e4abf2f128dbab231a58b56e89beb5d636115001e16590600090a250565b61043660008263ffffffff61046d16565b6040516001600160a01b038216907f22380c05984257a1cb900161c713dd71d39e74820f1aea43bd3f1bdd2096129990600090a250565b6104778282610376565b156104c9576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b6104f88282610376565b6105335760405162461bcd60e51b81526004018080602001828103825260218152602001806105566021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff1916905556fe526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f206164647265737357686974656c69737441646d696e526f6c653a2063616c6c657220646f6573206e6f742068617665207468652057686974656c69737441646d696e20726f6c6557686974656c6973746564526f6c653a2063616c6c657220646f6573206e6f742068617665207468652057686974656c697374656420726f6c65a265627a7a7231582020904a3f32ed3d38dc9afcc274ebd3a238aa5476bb2ba689d6fd401b1af3629864736f6c63430005100032526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100885760003560e01c80637362d9c81161005b5780637362d9c81461011d5780637491c97e14610143578063bb5f747b1461014b578063d6cd94731461017157610088565b806310154bad1461008d578063291d9549146100b55780633af32abf146100db5780634c5a628c14610115575b600080fd5b6100b3600480360360208110156100a357600080fd5b50356001600160a01b0316610179565b005b6100b3600480360360208110156100cb57600080fd5b50356001600160a01b03166101c9565b610101600480360360208110156100f157600080fd5b50356001600160a01b0316610216565b604080519115158252519081900360200190f35b6100b361022f565b6100b36004803603602081101561013357600080fd5b50356001600160a01b031661023a565b6100b3610287565b6101016004803603602081101561016157600080fd5b50356001600160a01b03166102cb565b6100b36102dd565b610182336102cb565b6101bd5760405162461bcd60e51b81526004018080602001828103825260408152602001806105996040913960400191505060405180910390fd5b6101c6816102e6565b50565b6101d2336102cb565b61020d5760405162461bcd60e51b81526004018080602001828103825260408152602001806105996040913960400191505060405180910390fd5b6101c68161032e565b600061022960018363ffffffff61037616565b92915050565b610238336103dd565b565b610243336102cb565b61027e5760405162461bcd60e51b81526004018080602001828103825260408152602001806105996040913960400191505060405180910390fd5b6101c681610425565b61029033610216565b6102385760405162461bcd60e51b815260040180806020018281038252603a8152602001806105d9603a913960400191505060405180910390fd5b6000610229818363ffffffff61037616565b6102383361032e565b6102f760018263ffffffff61046d16565b6040516001600160a01b038216907fee1504a83b6d4a361f4c1dc78ab59bfa30d6a3b6612c403e86bb01ef2984295f90600090a250565b61033f60018263ffffffff6104ee16565b6040516001600160a01b038216907f270d9b30cf5b0793bbfd54c9d5b94aeb49462b8148399000265144a8722da6b690600090a250565b60006001600160a01b0382166103bd5760405162461bcd60e51b81526004018080602001828103825260228152602001806105776022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6103ee60008263ffffffff6104ee16565b6040516001600160a01b038216907f0a8eb35e5ca14b3d6f28e4abf2f128dbab231a58b56e89beb5d636115001e16590600090a250565b61043660008263ffffffff61046d16565b6040516001600160a01b038216907f22380c05984257a1cb900161c713dd71d39e74820f1aea43bd3f1bdd2096129990600090a250565b6104778282610376565b156104c9576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b6104f88282610376565b6105335760405162461bcd60e51b81526004018080602001828103825260218152602001806105566021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff1916905556fe526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f206164647265737357686974656c69737441646d696e526f6c653a2063616c6c657220646f6573206e6f742068617665207468652057686974656c69737441646d696e20726f6c6557686974656c6973746564526f6c653a2063616c6c657220646f6573206e6f742068617665207468652057686974656c697374656420726f6c65a265627a7a7231582020904a3f32ed3d38dc9afcc274ebd3a238aa5476bb2ba689d6fd401b1af3629864736f6c63430005100032",
+  "sourceMap": "72:179:108:-;;;433:30:13;452:10;-1:-1:-1;;;;;433:18:13;:30;:::i;:::-;72:179:108;;991:143:13;1055:29;1076:7;1055:16;:20;;;;;;:29;;;;:::i;:::-;1099:28;;-1:-1:-1;;;;;1099:28:13;;;;;;;;991:143;:::o;260:175:8:-;337:18;341:4;347:7;-1:-1:-1;;;;;337:3:8;:18;:::i;:::-;336:19;328:63;;;;;-1:-1:-1;;;328:63:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:8;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:8;424:4;401:27;;;260:175::o;779:200::-;851:4;-1:-1:-1;;;;;875:21:8;;867:68;;;;-1:-1:-1;;;867:68:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:8;:11;:20;;;;;;;;;;;;;;;779:200::o;72:179:108:-;;;;;;;",
+  "deployedSourceMap": "72:179:108:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;72:179:108;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;910:108:14;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;910:108:14;-1:-1:-1;;;;;910:108:14;;:::i;:::-;;1024:114;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1024:114:14;-1:-1:-1;;;;;1024:114:14;;:::i;787:117::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;787:117:14;-1:-1:-1;;;;;787:117:14;;:::i;:::-;;;;;;;;;;;;;;;;;;894:91:13;;;:::i;774:114::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;774:114:13;-1:-1:-1;;;;;774:114:13;;:::i;126:123:108:-;;;:::i;645::13:-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;645:123:13;-1:-1:-1;;;;;645:123:13;;:::i;1144:85:14:-;;;:::i;910:108::-;524:28:13;541:10;524:16;:28::i;:::-;516:105;;;;-1:-1:-1;;;516:105:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;987:24:14;1003:7;987:15;:24::i;:::-;910:108;:::o;1024:114::-;524:28:13;541:10;524:16;:28::i;:::-;516:105;;;;-1:-1:-1;;;516:105:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1104:27:14;1123:7;1104:18;:27::i;787:117::-;848:4;871:26;:13;889:7;871:26;:17;:26;:::i;:::-;864:33;787:117;-1:-1:-1;;787:117:14:o;894:91:13:-;945:33;967:10;945:21;:33::i;:::-;894:91::o;774:114::-;524:28;541:10;524:16;:28::i;:::-;516:105;;;;-1:-1:-1;;;516:105:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;854:27;873:7;854:18;:27::i;126:123:108:-;675:25:14;689:10;675:13;:25::i;:::-;667:96;;;;-1:-1:-1;;;667:96:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;645:123:13;709:4;732:29;709:4;753:7;732:29;:20;:29;:::i;1144:85:14:-;1192:30;1211:10;1192:18;:30::i;1235:134::-;1296:26;:13;1314:7;1296:26;:17;:26;:::i;:::-;1337:25;;-1:-1:-1;;;;;1337:25:14;;;;;;;;1235:134;:::o;1375:142::-;1439:29;:13;1460:7;1439:29;:20;:29;:::i;:::-;1483:27;;-1:-1:-1;;;;;1483:27:14;;;;;;;;1375:142;:::o;779:200:8:-;851:4;-1:-1:-1;;;;;875:21:8;;867:68;;;;-1:-1:-1;;;867:68:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:8;:11;:20;;;;;;;;;;;;;;;779:200::o;1140:151:13:-;1207:32;:16;1231:7;1207:32;:23;:32;:::i;:::-;1254:30;;-1:-1:-1;;;;;1254:30:13;;;;;;;;1140:151;:::o;991:143::-;1055:29;:16;1076:7;1055:29;:20;:29;:::i;:::-;1099:28;;-1:-1:-1;;;;;1099:28:13;;;;;;;;991:143;:::o;260:175:8:-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;-1:-1:-1;;;328:63:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:8;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:8;424:4;401:27;;;260:175::o;510:180::-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;-1:-1:-1;;;581:64:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;655:20:8;678:5;655:20;;;;;;;;;;;:28;;-1:-1:-1;;655:28:8;;;510:180::o",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"../access/roles/WhitelistedRole.sol\";\n\ncontract WhitelistedRoleMock is WhitelistedRole {\n    function onlyWhitelistedMock() public view onlyWhitelisted {\n        // solhint-disable-previous-line no-empty-blocks\n    }\n}\n",
+  "sourcePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/mocks/WhitelistedRoleMock.sol",
+  "ast": {
+    "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/mocks/WhitelistedRoleMock.sol",
+    "exportedSymbols": {
+      "WhitelistedRoleMock": [
+        9819
+      ]
+    },
+    "id": 9820,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 9809,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:108"
+      },
+      {
+        "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/WhitelistedRole.sol",
+        "file": "../access/roles/WhitelistedRole.sol",
+        "id": 9810,
+        "nodeType": "ImportDirective",
+        "scope": 9820,
+        "sourceUnit": 2711,
+        "src": "25:45:108",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 9811,
+              "name": "WhitelistedRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 2710,
+              "src": "104:15:108",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_WhitelistedRole_$2710",
+                "typeString": "contract WhitelistedRole"
+              }
+            },
+            "id": 9812,
+            "nodeType": "InheritanceSpecifier",
+            "src": "104:15:108"
+          }
+        ],
+        "contractDependencies": [
+          2600,
+          2710
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 9819,
+        "linearizedBaseContracts": [
+          9819,
+          2710,
+          2600
+        ],
+        "name": "WhitelistedRoleMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 9817,
+              "nodeType": "Block",
+              "src": "185:64:108",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 9818,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 9815,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 9814,
+                  "name": "onlyWhitelisted",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 2631,
+                  "src": "169:15:108",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "169:15:108"
+              }
+            ],
+            "name": "onlyWhitelistedMock",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9813,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "154:2:108"
+            },
+            "returnParameters": {
+              "id": 9816,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "185:0:108"
+            },
+            "scope": 9819,
+            "src": "126:123:108",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 9820,
+        "src": "72:179:108"
+      }
+    ],
+    "src": "0:252:108"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/mocks/WhitelistedRoleMock.sol",
+    "exportedSymbols": {
+      "WhitelistedRoleMock": [
+        9819
+      ]
+    },
+    "id": 9820,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 9809,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:108"
+      },
+      {
+        "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/lib/openzeppelin-solidity/contracts/access/roles/WhitelistedRole.sol",
+        "file": "../access/roles/WhitelistedRole.sol",
+        "id": 9810,
+        "nodeType": "ImportDirective",
+        "scope": 9820,
+        "sourceUnit": 2711,
+        "src": "25:45:108",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 9811,
+              "name": "WhitelistedRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 2710,
+              "src": "104:15:108",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_WhitelistedRole_$2710",
+                "typeString": "contract WhitelistedRole"
+              }
+            },
+            "id": 9812,
+            "nodeType": "InheritanceSpecifier",
+            "src": "104:15:108"
+          }
+        ],
+        "contractDependencies": [
+          2600,
+          2710
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 9819,
+        "linearizedBaseContracts": [
+          9819,
+          2710,
+          2600
+        ],
+        "name": "WhitelistedRoleMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 9817,
+              "nodeType": "Block",
+              "src": "185:64:108",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 9818,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 9815,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 9814,
+                  "name": "onlyWhitelisted",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 2631,
+                  "src": "169:15:108",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "169:15:108"
+              }
+            ],
+            "name": "onlyWhitelistedMock",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9813,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "154:2:108"
+            },
+            "returnParameters": {
+              "id": 9816,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "185:0:108"
+            },
+            "scope": 9819,
+            "src": "126:123:108",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 9820,
+        "src": "72:179:108"
+      }
+    ],
+    "src": "0:252:108"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-05-14T11:10:26.120Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

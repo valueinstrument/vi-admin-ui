@@ -13,7 +13,7 @@ module.exports = {
       provider: function () {
         return new HDWalletProvider(
           mnemonic.getMnemonic(),
-          "http://127.0.0.1:8545/"
+          "http://127.0.0.1:8546/"
         );
       },
       network_id: "*",
@@ -21,11 +21,8 @@ module.exports = {
   },
   compilers: {
     solc: {
-      settings: {
-        optimizer: {
-          enabled: true,
-        },
-      },
+      version: "0.5.16",
+      optimisation: false,
     },
   },
 };
