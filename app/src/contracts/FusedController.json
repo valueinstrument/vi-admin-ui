@@ -111,15 +111,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_controller\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[],\"name\":\"BlowAllFuses\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint8\",\"name\":\"_fuseID\",\"type\":\"uint8\"}],\"name\":\"BlowFuse\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"_newController\",\"type\":\"address\"}],\"name\":\"ChangeController\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bool\",\"name\":\"_confirm\",\"type\":\"bool\"}],\"name\":\"blowAllFuses\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"_fuseID\",\"type\":\"uint8\"},{\"internalType\":\"bool\",\"name\":\"_confirm\",\"type\":\"bool\"}],\"name\":\"blowFuse\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newController\",\"type\":\"address\"}],\"name\":\"changeController\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"controller\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"Marc Griffiths, Value Instrument, the enkel collective\",\"details\":\"This contract was developed for solc 0.5.8 \",\"methods\":{},\"title\":\"A controllable contract that can incrementally transition to an immutable contract\"},\"userdoc\":{\"methods\":{\"blowAllFuses(bool)\":{\"notice\":\"Functions\"}},\"notice\":\"Provides special permisions to a controller account or contract, while allowing those special permissions to be discarded at any time\"}},\"settings\":{\"compilationTarget\":{\"/home/grifma/Code/vi-admin-ui/contracts/FusedController.sol\":\"FusedController\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/grifma/Code/vi-admin-ui/contracts/FusedController.sol\":{\"keccak256\":\"0x924e38f57a69605b7359e5f8f995bfcd3e6e94431e686983b229d2cafe9aa36a\",\"urls\":[\"bzz-raw://6410725f03704139c1a0d507b158a8f28074e530c32001e4cf5f1c46de8401e6\",\"dweb:/ipfs/QmVfav4VW416QaLC92Ewt8JtLyfHKSAb1L836V2P1adpWP\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506040516107b93803806107b98339818101604052602081101561003357600080fd5b8101908080519060200190929190505050600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156100be57336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506100ff565b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b506106aa8061010f6000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80633cebb82314610051578063e3321e1f14610095578063e49ac4cd146100d2578063f77c479114610102575b600080fd5b6100936004803603602081101561006757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061014c565b005b6100d0600480360360408110156100ab57600080fd5b81019080803560ff1690602001909291908035151590602001909291905050506102b4565b005b610100600480360360208110156100e857600080fd5b81019080803515159060200190929190505050610444565b005b61010a6105a6565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461020e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fc0c3fe6333763f87ec50ad1366067ab6f03fd677c62f3c20e50e9446afd32ef681604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610376576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b60011515811515146103d3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252604b8152602001806105cc604b913960600191505060405180910390fd5b6001808360ff16602081106103e457fe5b602091828204019190066101000a81548160ff0219169083151502179055507f0a1c4fbbe900dd991589095fcecc99c37b45915eb6e6574e7398954e874bbebe82604051808260ff1660ff16815260200191505060405180910390a15050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610506576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b8061055c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252605f815260200180610617605f913960600191505060405180910390fd5b6001600060146101000a81548160ff0219169083151502179055507f3f6efc34971655abc7da08a1bf5e861a7e41e21c617aa42f0a9e1643ed4c199d60405160405180910390a150565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fe546869732077696c6c207065726d616e656e746c792064697361626c652066756e6374696f6e2c20706c6561736520736574205f636f6e6669726d3d7472756520746f20636f6e6669726d546869732077696c6c207065726d616e656e746c792064697361626c652066756e6374696f6e20616c6c2066757365642066756e6374696f6e732c20706c6561736520736574205f636f6e6669726d3d7472756520746f20636f6e6669726da265627a7a723158200057b5d70ebf33da1950b99d80b241a7716e3801aa49c59f00afeb088dfea28264736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80633cebb82314610051578063e3321e1f14610095578063e49ac4cd146100d2578063f77c479114610102575b600080fd5b6100936004803603602081101561006757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061014c565b005b6100d0600480360360408110156100ab57600080fd5b81019080803560ff1690602001909291908035151590602001909291905050506102b4565b005b610100600480360360208110156100e857600080fd5b81019080803515159060200190929190505050610444565b005b61010a6105a6565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461020e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fc0c3fe6333763f87ec50ad1366067ab6f03fd677c62f3c20e50e9446afd32ef681604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610376576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b60011515811515146103d3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252604b8152602001806105cc604b913960600191505060405180910390fd5b6001808360ff16602081106103e457fe5b602091828204019190066101000a81548160ff0219169083151502179055507f0a1c4fbbe900dd991589095fcecc99c37b45915eb6e6574e7398954e874bbebe82604051808260ff1660ff16815260200191505060405180910390a15050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610506576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b8061055c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252605f815260200180610617605f913960600191505060405180910390fd5b6001600060146101000a81548160ff0219169083151502179055507f3f6efc34971655abc7da08a1bf5e861a7e41e21c617aa42f0a9e1643ed4c199d60405160405180910390a150565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fe546869732077696c6c207065726d616e656e746c792064697361626c652066756e6374696f6e2c20706c6561736520736574205f636f6e6669726d3d7472756520746f20636f6e6669726d546869732077696c6c207065726d616e656e746c792064697361626c652066756e6374696f6e20616c6c2066757365642066756e6374696f6e732c20706c6561736520736574205f636f6e6669726d3d7472756520746f20636f6e6669726da265627a7a723158200057b5d70ebf33da1950b99d80b241a7716e3801aa49c59f00afeb088dfea28264736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_controller\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[],\"name\":\"BlowAllFuses\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint8\",\"name\":\"_fuseID\",\"type\":\"uint8\"}],\"name\":\"BlowFuse\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"_newController\",\"type\":\"address\"}],\"name\":\"ChangeController\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bool\",\"name\":\"_confirm\",\"type\":\"bool\"}],\"name\":\"blowAllFuses\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"_fuseID\",\"type\":\"uint8\"},{\"internalType\":\"bool\",\"name\":\"_confirm\",\"type\":\"bool\"}],\"name\":\"blowFuse\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newController\",\"type\":\"address\"}],\"name\":\"changeController\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"controller\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"Marc Griffiths, Value Instrument, the enkel collective\",\"details\":\"This contract was developed for solc 0.5.8 \",\"methods\":{},\"title\":\"A controllable contract that can incrementally transition to an immutable contract\"},\"userdoc\":{\"methods\":{\"blowAllFuses(bool)\":{\"notice\":\"Functions\"}},\"notice\":\"Provides special permisions to a controller account or contract, while allowing those special permissions to be discarded at any time\"}},\"settings\":{\"compilationTarget\":{\"/home/grifma/Code/vi-fresh/v-alpha-2/smart-contract/contracts/FusedController.sol\":\"FusedController\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/grifma/Code/vi-fresh/v-alpha-2/smart-contract/contracts/FusedController.sol\":{\"keccak256\":\"0x924e38f57a69605b7359e5f8f995bfcd3e6e94431e686983b229d2cafe9aa36a\",\"urls\":[\"bzz-raw://6410725f03704139c1a0d507b158a8f28074e530c32001e4cf5f1c46de8401e6\",\"dweb:/ipfs/QmVfav4VW416QaLC92Ewt8JtLyfHKSAb1L836V2P1adpWP\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516107b93803806107b98339818101604052602081101561003357600080fd5b8101908080519060200190929190505050600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156100be57336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506100ff565b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b506106aa8061010f6000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80633cebb82314610051578063e3321e1f14610095578063e49ac4cd146100d2578063f77c479114610102575b600080fd5b6100936004803603602081101561006757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061014c565b005b6100d0600480360360408110156100ab57600080fd5b81019080803560ff1690602001909291908035151590602001909291905050506102b4565b005b610100600480360360208110156100e857600080fd5b81019080803515159060200190929190505050610444565b005b61010a6105a6565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461020e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fc0c3fe6333763f87ec50ad1366067ab6f03fd677c62f3c20e50e9446afd32ef681604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610376576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b60011515811515146103d3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252604b8152602001806105cc604b913960600191505060405180910390fd5b6001808360ff16602081106103e457fe5b602091828204019190066101000a81548160ff0219169083151502179055507f0a1c4fbbe900dd991589095fcecc99c37b45915eb6e6574e7398954e874bbebe82604051808260ff1660ff16815260200191505060405180910390a15050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610506576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b8061055c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252605f815260200180610617605f913960600191505060405180910390fd5b6001600060146101000a81548160ff0219169083151502179055507f3f6efc34971655abc7da08a1bf5e861a7e41e21c617aa42f0a9e1643ed4c199d60405160405180910390a150565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fe546869732077696c6c207065726d616e656e746c792064697361626c652066756e6374696f6e2c20706c6561736520736574205f636f6e6669726d3d7472756520746f20636f6e6669726d546869732077696c6c207065726d616e656e746c792064697361626c652066756e6374696f6e20616c6c2066757365642066756e6374696f6e732c20706c6561736520736574205f636f6e6669726d3d7472756520746f20636f6e6669726da265627a7a72315820e2e7e01ac27a660281bb769fa9184e20490a9c05b5caa8a65683197f7566c90d64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80633cebb82314610051578063e3321e1f14610095578063e49ac4cd146100d2578063f77c479114610102575b600080fd5b6100936004803603602081101561006757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061014c565b005b6100d0600480360360408110156100ab57600080fd5b81019080803560ff1690602001909291908035151590602001909291905050506102b4565b005b610100600480360360208110156100e857600080fd5b81019080803515159060200190929190505050610444565b005b61010a6105a6565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461020e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fc0c3fe6333763f87ec50ad1366067ab6f03fd677c62f3c20e50e9446afd32ef681604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610376576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b60011515811515146103d3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252604b8152602001806105cc604b913960600191505060405180910390fd5b6001808360ff16602081106103e457fe5b602091828204019190066101000a81548160ff0219169083151502179055507f0a1c4fbbe900dd991589095fcecc99c37b45915eb6e6574e7398954e874bbebe82604051808260ff1660ff16815260200191505060405180910390a15050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610506576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f436f6e74726f6c6c6572206163636f756e742f636f6e7472616374206f6e6c7981525060200191505060405180910390fd5b8061055c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252605f815260200180610617605f913960600191505060405180910390fd5b6001600060146101000a81548160ff0219169083151502179055507f3f6efc34971655abc7da08a1bf5e861a7e41e21c617aa42f0a9e1643ed4c199d60405160405180910390a150565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fe546869732077696c6c207065726d616e656e746c792064697361626c652066756e6374696f6e2c20706c6561736520736574205f636f6e6669726d3d7472756520746f20636f6e6669726d546869732077696c6c207065726d616e656e746c792064697361626c652066756e6374696f6e20616c6c2066757365642066756e6374696f6e732c20706c6561736520736574205f636f6e6669726d3d7472756520746f20636f6e6669726da265627a7a72315820e2e7e01ac27a660281bb769fa9184e20490a9c05b5caa8a65683197f7566c90d64736f6c63430005100032",
   "sourceMap": "408:1897:1:-;;;848:188;8:9:-1;5:2;;;30:1;27;20:12;5:2;848:188:1;;;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;848:188:1;;;;;;;;;;;;;;;;924:1;901:25;;:11;:25;;;898:132;;;954:10;941;;:23;;;;;;;;;;;;;;;;;;898:132;;;1008:11;995:10;;:24;;;;;;;;;;;;;;;;;;898:132;848:188;408:1897;;;;;;",
   "deployedSourceMap": "408:1897:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;408:1897:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2118:185;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;2118:185:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;1798:314;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1798:314:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;1485:307;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1485:307:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;440:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;2118:185;1397:10;;;;;;;;;;;1383:24;;:10;:24;;;1375:69;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2235:14;2222:10;;:27;;;;;;;;;;;;;;;;;;2264:32;2281:14;2264:32;;;;;;;;;;;;;;;;;;;;;;2118:185;:::o;1798:314::-;1397:10;;;;;;;;;;;1383:24;;:10;:24;;;1375:69;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1933:4;1921:16;;:8;:16;;;1900:138;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2069:4;2048:9;2058:7;2048:18;;;;;;;;;;;;;;;;;;:25;;;;;;;;;;;;;;;;;;2088:17;2097:7;2088:17;;;;;;;;;;;;;;;;;;;;;;1798:314;;:::o;1485:307::-;1397:10;;;;;;;;;;;1383:24;;:10;:24;;;1375:69;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1597:8;1576:150;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1752:4;1736:13;;:20;;;;;;;;;;;;;;;;;;1771:14;;;;;;;;;;1485:307;:::o;440:25::-;;;;;;;;;;;;;:::o",
   "source": "pragma solidity ^0.5.0;\n\n/**\n    @title A controllable contract that can incrementally transition to an\n        immutable contract\n    @author Marc Griffiths, Value Instrument, the enkel collective\n    @notice Provides special permisions to a controller account or contract,\n        while allowing those special permissions to be discarded at any time\n    @dev This contract was developed for solc 0.5.8 */\n\ncontract FusedController {\n\n    address public controller;\n    // address with priviledges to adjust settings, add accounts etc\n\n    bool allFusesBlown;\n    // set this to true to blow all fuses\n\n    bool[32] fuseBlown;\n    /* allows a seperate fuse for distinct functions, so that those functions\n    can be disabled */\n\n    event BlowFuse(uint8 _fuseID);\n    event BlowAllFuses();\n    event ChangeController(address _newController);\n\n    constructor(address _controller) public {\n        if(_controller == address(0)){\n            controller = msg.sender;\n        } else {\n            controller = _controller;\n        }\n    }\n\n    /// Modifiers\n\n    modifier fused(uint8 _fuseID) {\n        require(\n            allFusesBlown == false,\n            \"Function fuse has been triggered\"\n        );\n        require(\n            fuseBlown[_fuseID] == false,\n            \"Function fuse has been triggered\"\n        );\n        _;\n    }\n    modifier onlyController() {\n      require(msg.sender == controller, \"Controller account/contract only\");\n      _;\n    }\n\n    /// Functions\n\n    function blowAllFuses(bool _confirm)\n        external\n        onlyController\n    {\n        require(\n            _confirm,\n            \"This will permanently disable function all fused functions, please set _confirm=true to confirm\"\n        );\n        allFusesBlown = true;\n        emit BlowAllFuses();\n    }\n\n    function blowFuse(uint8 _fuseID, bool _confirm)\n        external\n        onlyController\n    {\n        require(\n            _confirm == true,\n            \"This will permanently disable function, please set _confirm=true to confirm\"\n        );\n        fuseBlown[_fuseID] = true;\n        emit BlowFuse(_fuseID);\n    }\n\n    function changeController(address _newController)\n        external\n        onlyController\n    {\n        controller = _newController;\n        emit ChangeController(_newController);\n    }\n}\n",
-  "sourcePath": "/home/grifma/Code/vi-admin-ui/contracts/FusedController.sol",
+  "sourcePath": "/home/grifma/Code/vi-fresh/v-alpha-2/smart-contract/contracts/FusedController.sol",
   "ast": {
-    "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/FusedController.sol",
+    "absolutePath": "/home/grifma/Code/vi-fresh/v-alpha-2/smart-contract/contracts/FusedController.sol",
     "exportedSymbols": {
       "FusedController": [
         256
@@ -544,7 +544,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4022,
+                              "referencedDeclaration": 13079,
                               "src": "954:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -727,10 +727,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1101:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -870,10 +870,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1212:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -974,7 +974,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4022,
+                            "referencedDeclaration": 13079,
                             "src": "1383:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1050,10 +1050,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1375:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1155,10 +1155,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1576:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1437,10 +1437,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1900:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1886,7 +1886,7 @@
     "src": "0:2306:1"
   },
   "legacyAST": {
-    "absolutePath": "/home/grifma/Code/vi-admin-ui/contracts/FusedController.sol",
+    "absolutePath": "/home/grifma/Code/vi-fresh/v-alpha-2/smart-contract/contracts/FusedController.sol",
     "exportedSymbols": {
       "FusedController": [
         256
@@ -2311,7 +2311,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4022,
+                              "referencedDeclaration": 13079,
                               "src": "954:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -2494,10 +2494,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1101:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2637,10 +2637,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1212:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2741,7 +2741,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4022,
+                            "referencedDeclaration": 13079,
                             "src": "1383:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2817,10 +2817,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1375:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2922,10 +2922,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1576:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3204,10 +3204,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4025,
-                        4026
+                        13082,
+                        13083
                       ],
-                      "referencedDeclaration": 4026,
+                      "referencedDeclaration": 13083,
                       "src": "1900:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3658,7 +3658,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-06-09T12:36:43.455Z",
+  "updatedAt": "2020-06-09T20:14:57.662Z",
   "devdoc": {
     "author": "Marc Griffiths, Value Instrument, the enkel collective",
     "details": "This contract was developed for solc 0.5.8 ",
